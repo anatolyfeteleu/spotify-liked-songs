@@ -18,7 +18,6 @@ class SpotifyClient:
     def __init__(self):
 
         self.client = self.get_client()
-        self.playlist_id = None
 
     @staticmethod
     @Beautify
