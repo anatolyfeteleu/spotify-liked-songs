@@ -81,7 +81,7 @@ class SpotifyClient:
         )
 
     @Beautify
-    def put_track_ids_to_playlist(self, playlist_id: str, track_ids: Iterable):
+    def put_track_ids_to_playlist(self, playlist_id: str, track_ids: Iterable) -> None:
         """
         Puts tracks by identifiers into playlist by playlist id.
         :param playlist_id: str
